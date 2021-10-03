@@ -1,7 +1,7 @@
 abstract class one{
    abstract void add();
 }
-public class sum extends one{
+public class sumusingabstact extends one{
     public void add(){
         float a=10.0f;
         float b=02.0022332f;
@@ -9,7 +9,7 @@ public class sum extends one{
     }
     public static void main(String args[])
     {
-        sum o=new sum();
+        sumusingabstact o=new sumusingabstact();
         o.add();
     }
 }
